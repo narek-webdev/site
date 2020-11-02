@@ -6,7 +6,7 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
@@ -269,7 +269,7 @@
 
 .contact {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -414,4 +414,12 @@ footer {
     position: initial;
     text-align: center;
   }
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.ft-20 {
+  font-size: 20px;
 }

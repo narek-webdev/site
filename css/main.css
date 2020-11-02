@@ -6,7 +6,7 @@
 
 .home {
   height: 100%;
-  padding-top: 30vh;
+  padding-top: 40vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
@@ -413,6 +413,14 @@ footer {
   #footer-contact {
     position: initial;
     text-align: center;
+  }
+
+  .contact {
+    padding-top: 20vh;
+  }
+
+  .home {
+    padding-top: 30vh;
   }
 }
 

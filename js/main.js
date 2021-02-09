@@ -1,5 +1,3 @@
-document.getElementsByClassName("about__age")[0].innerText = new Date().getFullYear() - 2001;
-
 const menuBtn = document.querySelector('.menu-btn');
 const hamburger = document.querySelector('.menu-btn__burger');
 const nav = document.querySelector('.nav');
@@ -7,6 +5,8 @@ const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 
 let showMenu = false;
+
+console.log(menuBtn);
 
 menuBtn.addEventListener('click', toggleMenu);
 
